@@ -1,0 +1,13 @@
+{
+	"Name": "xamionex.Trolinity",
+	"Description": "Custom Configs for a Trolinity server\n\nThis is a server side mod, no need for clients to download",
+	"Version": "1.0.0",
+	"LoadPriority": 2,
+	"Scripts": [{
+		"Path": "Trolinity.nut",
+		"RunOn": "SERVER && MP",
+		"ServerCallback": {
+			"After": "Trolinity_Init"
+		}
+	}]
+}
